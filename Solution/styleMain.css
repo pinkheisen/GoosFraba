@@ -125,6 +125,7 @@ a:hover, a:active {
 }
 
 .mainContent {
+	width:100%;
 	float:left;
 	overflow: hidden;
 	line-height: 25px;
@@ -167,7 +168,8 @@ a:hover, a:active {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
 	background-color: #2a5064;
-	background-image: url(images/images.jpg);
+	background: url(images/images.jpg);
+	background-position: 200px 200px;
 }
 
 .post-info {
@@ -207,6 +209,15 @@ a:hover, a:active {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;	
 	background-color: #FFF;	
+}
+
+#bannerHeader{
+float:left;
+}
+
+#bannerHeader h2 {
+	width:364px;
+	float:right;
 }
 
 /*
