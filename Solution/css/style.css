@@ -1,0 +1,51 @@
+.navbar-brand {
+padding: 10px 15px 0 15px;
+}
+
+#registrationSection{
+	clear:both;
+	border-bottom: 1px solid #eee;
+	padding-bottom:15px;
+}
+
+#activitySection{
+	clear:both;
+	border-bottom: 1px solid #eee;
+	padding-bottom:15px;
+}
+
+.rightContent{
+	width:40%;
+	color:#fff;
+}
+
+.clear{
+	clear:both;
+}
+
+.thumbnail{
+	border: 0;
+	box-shadow : none;
+}
+
+.row .pull-left .thumbnail{
+	margin: 20px 0 0 50px;
+}
+.content {
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;	
+	background-color: #2a5064;
+	background: url(../images/images.jpg);
+	background-position: 200px 200px;
+}
+
+.row{
+	margin-left:0;
+}
+
+.span3{
+	margin-left:0;
+}
